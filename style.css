@@ -1,0 +1,47 @@
+*{
+    text-align: center;
+  background-image: url(1.jpg);
+    padding: 0;
+    padding: 0;
+}
+body{
+    padding: 50px;
+}
+#survey-form{
+    background-color: blueviolet;
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+    width: 550px;
+    height: 420px;
+}
+#title{
+font-size: larger;
+text-align: center;
+}
+#description{
+    font-size: medium;
+}
+#submit{
+    background-color: darkmagenta;
+    color: black;
+    width: 300px;
+    height: 30px;
+}
+#submit:hover{
+ background-color:white;
+   border-radius: 50%;
+   
+}
+#name{
+    width: 300px;
+}
+#email{
+    width: 300px;
+}
+#number{
+    width: 300px;
+}
+#dropdown{
+    width: 200px;
+}

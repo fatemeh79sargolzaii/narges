@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title >Tribute page</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+ <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+ <mian>
+ <h1 id="title"> survey form</h1>
+  <hr>
+ <p id="description">Complete the survey form below.Please take the time to complete this survey:</p>
+<form action="" id="survey-form">
+<fieldset > 
+ <label for="name"name="name-label"id="name-label">name:</label>
+ <input type="text" id="name" placeholder="Enter your name ..." required> <br>
+ <label for="email"name="email-label" id="email-label">email:</label>
+ <input type="email" id="email" placeholder="Enter your email ..."required> <br>
+<label for="number"name="number-label"id="number-label">number:</label>
+ <input type="number" id="number" max="100" min="1" placeholder="Enter your number ..."required> <br> <br>
+<select id="dropdown" type="dropdown">
+ <option>teaching method</option> <br>
+<option value="bad">Bad</option>
+ <option value="not-bad">Not bad</option>
+ <option value="good">Good</option>
+ <option value="amazing">Amazing!</option>
+ </select>
+<p>Are you satisfied with the teaching method?</p>
+<input type="radio" id="NO" name="radio" value="NO">
+<label for="NO">NO</label>
+<input type="radio" id="YES" name="radio" value="YES"checked>
+<label for="YES">YES</label><br> <br>
+<label for="user">
+Positive points of class teaching
+</label> <br> <br>
+<label for="Great teaching">Great teaching </label>
+<input value="1" type="checkbox" >
+<label for="Good manners">Good manners </label> 
+<input value="2" type="checkbox" >
+ <label for="kindness">kindness </label> 
+<input value="3" type="checkbox" >
+<label for=" Mood "> Mood </label> 
+ <input value="4" type="checkbox" >
+<label for="bad tempered">bad tempered</label> 
+ <input value="5" type="checkbox" >
+  </label>
+  <p>Give your comments</p>
+  <textarea placeholder="Please enter any comments here" name="comments" rows="5" maxlength="300" cols="60"></textarea><br><br>
+  <button id="submit" type="submit">submit</button>
+  </fieldset> 
+  </form>
+  </mian>  
+    </body>
+</html>
